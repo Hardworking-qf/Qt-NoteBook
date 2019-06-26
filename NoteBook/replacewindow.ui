@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReplaceWindow</class>
+ <widget class="QDialog" name="ReplaceWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>405</width>
+    <height>202</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>替换</string>
+  </property>
+  <widget class="QPushButton" name="Find">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>16</y>
+     <width>86</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查找下一个(&amp;F)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="find_input">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>200</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Replace">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>49</y>
+     <width>86</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>替换(&amp;R)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>24</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查找内容(&amp;N):</string>
+   </property>
+   <property name="buddy">
+    <cstring>find_input</cstring>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>125</y>
+     <width>103</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="search_opinion">
+    <item>
+     <widget class="QCheckBox" name="CaseSensitivity">
+      <property name="text">
+       <string>区分大小写(&amp;C)</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Repeat">
+      <property name="text">
+       <string>循环(&amp;R)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>59</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>替换为(&amp;P):</string>
+   </property>
+   <property name="buddy">
+    <cstring>replace_input</cstring>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="replace_input">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>55</y>
+     <width>200</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="All_Replace">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>82</y>
+     <width>86</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>全部替换(&amp;A)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Quit">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>115</y>
+     <width>86</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GotoWindow</class>
+ <widget class="QDialog" name="GotoWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>293</width>
+    <height>130</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>转到指定行</string>
+  </property>
+  <widget class="QLineEdit" name="row_input">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>39</y>
+     <width>264</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>19</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>行号(&amp;L):</string>
+   </property>
+   <property name="buddy">
+    <cstring>row_input</cstring>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="go_to">
+   <property name="geometry">
+    <rect>
+     <x>107</x>
+     <y>86</y>
+     <width>86</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>转到</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>86</y>
+     <width>86</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
